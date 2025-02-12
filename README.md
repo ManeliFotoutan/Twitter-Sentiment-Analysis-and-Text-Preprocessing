@@ -4,7 +4,9 @@
 This project analyzes sentiment in tweets using the TextBlob library and applies various text preprocessing techniques. Additionally, it explores different text vectorization methods such as Bag-of-Words (BoW), TF-IDF, Word2Vec, and GloVe embeddings. The similarity between original and processed text representations is also calculated using cosine similarity.
 
 ## Dataset
-- The dataset used is `training.1600000.processed.noemoticon.csv`.
+- The dataset used is `training.1600000.processed.noemoticon.csv` which consists of **50,000** reviews categorized into positive and negative classes. You can access and download the dataset from the following link:
+
+[training.1600000.processed.noemoticon.csv Dataset](https://drive.google.com/file/d/13u7afZIUzeTo2RaL6SkVApdR09zRGws-/view?usp=sharing)
 - Columns: `id`, `timestamp`, `query`, `user`, `tweet`.
 - Sentiment is inferred using TextBlob instead of being explicitly provided.
 
